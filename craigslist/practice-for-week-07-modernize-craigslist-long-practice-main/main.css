@@ -38,18 +38,27 @@ p.more {
 
 #leftbar {
   display: inline-block;
+  vertical-align: top;
+  
 }
+
 
 #rightbar {
   display: inline-block;
+  vertical-align: top;
 }
 
 #center {
   display: inline-flex;
   border: solid 1px;
   border-radius: 8px;
-  width: 60%;
+  width: auto;
   height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 /* #class .txt a{
@@ -58,4 +67,16 @@ p.more {
 
 #h4 {
   margin-left:;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  justify-content: center;
 }
