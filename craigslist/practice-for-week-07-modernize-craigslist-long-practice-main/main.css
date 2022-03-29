@@ -32,6 +32,30 @@ p.more {
 
 /* Your code here */
 
-#leftbar {
+#topban {
+  text-align: center;
+}
 
+#leftbar {
+  display: inline-block;
+}
+
+#rightbar {
+  display: inline-block;
+}
+
+#center {
+  display: inline-flex;
+  border: solid 1px;
+  border-radius: 8px;
+  width: 60%;
+  height: auto;
+}
+
+/* #class .txt a{
+  margin-left: 40px;
+} */
+
+#h4 {
+  margin-left:;
 }
